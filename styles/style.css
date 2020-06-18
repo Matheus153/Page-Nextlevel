@@ -1,0 +1,29 @@
+:root {
+    --title-color: rgb(185, 185, 185);
+    --primary-color: #34cb34
+}
+/*(para todos os seletores)*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(238, 238, 238, 0.253);
+    color: aliceblue;
+}
+
+h1, h2, h3, h4 {
+    color: var(--title-color);
+}
+

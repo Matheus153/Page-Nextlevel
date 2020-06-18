@@ -1,0 +1,45 @@
+/* (Para dispositivos mobile's)
+
+
+    (QUANDO A IMAGEM ESTIVER MENOR QUE 900PX 
+    ELE A IMAGEM PRA PUTA QUE PARIU) */
+
+    
+@media (max-width: 900px) {
+    
+    #page-home{
+        background-position-x: 100vw;
+        background-color: rgba(0, 0, 0, 0.897);
+    }
+    
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+    
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #page-home main {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    #page-home{
+        background-position-x: 20vw;
+        background-color: rgba(0, 0, 0, 0.897);
+    }
+}
+    
+@media (max-height: 760px) {
+    #page-home{
+        background-position-y: 200vh;
+        
+    }
+}

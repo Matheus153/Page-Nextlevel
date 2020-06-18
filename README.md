@@ -1,4 +1,4 @@
-<h1 align="center">Página web para PC e mobile</h1>
+ # Página web para PC e mobile
 <h1>
     <img src="Nextlevel.gif" align="center">
 </h1>
